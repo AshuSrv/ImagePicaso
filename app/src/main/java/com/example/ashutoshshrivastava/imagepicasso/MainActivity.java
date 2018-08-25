@@ -21,9 +21,9 @@ ImageView imageView;
         Float angle = 0f;
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-loadImageWithRotation(url,0f,imageView);
 
 
+        loadImageWithRotation(url,0f,imageView);
     }
 
     @Override
