@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/rotate_right"
+        android:icon="@drawable/rotateright"
+        android:title="right"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/rotate_left"
+        android:icon="@drawable/rotateleft"
+        android:title="left"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="settings"
+        app:showAsAction="never"/>
+</menu>
